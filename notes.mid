@@ -73,5 +73,12 @@ footer
                         li
                         li
                         li
-
-
+======*******=====
+section.authorinfo
+    div.container
+        div.authorinfo__content
+            div.authorinfo-card
+                img
+                div.authorinfo-card__body
+                    div.authorinfo-card__title
+                    div.authorinfo-card__text
