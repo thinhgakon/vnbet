@@ -33,8 +33,28 @@ section.lastest-book (background)
                     div.lastest-book__card-img img
                     div.lastest-book__card-body
                         div.lastest-book__card-title
+                        div.lastest-book__card-divider
                         div.lastest-book__card-text
                         div.lastest-book__card-time
-
+======*******=====
+section.listed-book
+    div.container
+        div.row
+            div.col
+                div.listed-book__title
+                    div.listed-book__label
+            div.col
+                div.listed-book__view-all
+                    i
+                    a    
+        div.row
+            div.col*2
+                div.listed-book__card
+                    div.listed-book__card-img img
+                    div.listed-book__card-body
+                        div.listed-book__card-title
+                        div.listed-book__card-divider
+                        div.listed-book__card-text
+                        div.listed-book__card-time
 
 

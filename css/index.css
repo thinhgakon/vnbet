@@ -1,19 +1,35 @@
+/* *** Lastest Book *** */
 .lastest-book{
     background-color: #f7f4ec;
     padding: 30px 0;
     margin-top: 15px;
 }
-.lastest-book__title{
-margin-bottom: 15px;
+.wrapper-listed-book{
+    padding: 25px 0;
 }
-.lastest-book__label{
-    background-color: #27ae60;
+.listed-book{
+    padding: 20px 0;
+}
+
+/* *** BOX TITLE *** */
+.box-title{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.box-title__label{
+    background-color: #db6323;
     padding: 5px 15px;
     font-size: 21px;
     color: #fff;
     position: relative;
+    margin-right: 30px;
+    text-transform: capitalize;
 }
-.lastest-book__label:after {
+.box-title__label--highlight{
+    background-color: #27ae60;
+}
+.box-title__label:after {
     position: absolute;
     content: "";
     display: block;
@@ -22,50 +38,60 @@ margin-bottom: 15px;
     right: -16px;
     top: 0;
     border-bottom: 40px solid transparent;
+    border-left: 16px solid #db6323;
+}
+.box-title__label--highlight:after{
     border-left: 16px solid #27ae60;
 }
-.lastest-book__card{
+.box-title__view-all > a{
+    color: #db6323;
+    font-weight: 500;
+    font-size: 16px;
+}
+.box-title__view-all > a > i{
+    margin-right: 5px;
+}
+
+/* *** BOOK CARD *** */
+.book-card{
     border: 1px solid #f2c94c;
     background-color: #fff;
     border-radius: 4px;
     overflow: hidden;
 }
-.lastest-book__card-img{
-    padding: 5px 0;
+.book-card__img{
+    padding: 3px 0;
     display: flex;
     justify-content: center;
     height: 200px;
 }
-.lastest-book__card-img > img{
+.book-card__img > img{
     width: auto;
     max-height: 100%;
 }
-.lastest-book__card-body{
+.book-card__body{
     border-top: 1px solid #f2c94c;
     padding: 8px;
     background-color: #f8efd4;
 }
-.lastest-book__card-title{
-
-}
-.lastest-book__card-title > a{
+.book-card__title > a{
     color: #c18000;
     font-weight: 500;
     font-size: 16px;
     text-transform: capitalize;
 }
-.lastest-book__card-divider{
+.book-card__divider{
     width: 30px;
     height: 1px;
     background-color: #c18000;
     margin: 5px 0;
 }
-.lastest-book__card-text{
+.book-card__text{
     font-size: 14px;
     margin-bottom: 5px;
     color: #4f4f4f;
 }
-.lastest-book__card-time{
+.book-card__time{
     font-size: 13px;
     color: #828282;
 }
