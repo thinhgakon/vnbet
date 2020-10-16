@@ -56,5 +56,22 @@ section.listed-book
                         div.listed-book__card-divider
                         div.listed-book__card-text
                         div.listed-book__card-time
+======*******=====
+footer
+    section.footer
+        div.container
+            div.row
+                div.footer__desc
+            div.row
+                div.col
+                    ul
+                        li
+                        li
+                div.col
+                    ul
+                        li
+                        li
+                        li
+                        li
 
 
