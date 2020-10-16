@@ -1,0 +1,71 @@
+.lastest-book{
+    background-color: #f7f4ec;
+    padding: 30px 0;
+    margin-top: 15px;
+}
+.lastest-book__title{
+margin-bottom: 15px;
+}
+.lastest-book__label{
+    background-color: #27ae60;
+    padding: 5px 15px;
+    font-size: 21px;
+    color: #fff;
+    position: relative;
+}
+.lastest-book__label:after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 16px;
+    height: 40px;
+    right: -16px;
+    top: 0;
+    border-bottom: 40px solid transparent;
+    border-left: 16px solid #27ae60;
+}
+.lastest-book__card{
+    border: 1px solid #f2c94c;
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.lastest-book__card-img{
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+.lastest-book__card-img > img{
+    width: auto;
+    max-height: 100%;
+}
+.lastest-book__card-body{
+    border-top: 1px solid #f2c94c;
+    padding: 8px;
+    background-color: #f8efd4;
+}
+.lastest-book__card-title{
+
+}
+.lastest-book__card-title > a{
+    color: #c18000;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.lastest-book__card-divider{
+    width: 30px;
+    height: 1px;
+    background-color: #c18000;
+    margin: 5px 0;
+}
+.lastest-book__card-text{
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #4f4f4f;
+}
+.lastest-book__card-time{
+    font-size: 13px;
+    color: #828282;
+}

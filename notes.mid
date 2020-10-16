@@ -1,0 +1,40 @@
+======*******=====
+body
+    header
+        nav.top-nav
+
+    main
+        section.lastest-book
+        section.listed-book
+    footer
+        section.app-footer
+
+======*******=====
+nav.top-nav
+    div.container
+        div.row
+            div.col
+                img.top-nav__logo
+            div.col
+                ul.top-nav__menu > li > a
+            div.col
+                div.top-nav__login
+                
+======*******=====
+section.lastest-book (background)
+    div.container
+        div.row
+            div.col
+                div.lastest-book__title
+                    div.lastest-book__label
+        div.row
+            div.col*2
+                div.lastest-book__card
+                    div.lastest-book__card-img img
+                    div.lastest-book__card-body
+                        div.lastest-book__card-title
+                        div.lastest-book__card-text
+                        div.lastest-book__card-time
+
+
+

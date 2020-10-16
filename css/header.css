@@ -1,0 +1,35 @@
+.top-nav {
+    background-color: #fdfad1;
+    padding: 8px 0;
+}
+.top-nav__logo {
+    height: 55px;
+}
+.top-nav__menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.top-nav__menu > li {
+    margin-right: 25px;
+}
+.top-nav__menu > li > a {
+    color: #828282;
+    text-transform: capitalize;
+}
+.top-nav__menu > li > a > i {
+    margin-right: 7px;
+}
+.top-nav__menu > li.top-nav__menu-item--active > a {
+    color: #c18000;
+    font-weight: 500;
+}
+.top-nav__login > a {
+    color: #c18000;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.top-nav__login > a > i {
+    margin-right: 7px;
+}
