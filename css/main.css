@@ -69,3 +69,37 @@ a:hover{
 .listed-option__sort > span{
     margin-right: 7px;
 }
+/* Sigin */
+.signin-area{
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url("./../images/signin-bg.jpg") no-repeat 50%;
+    background-size: 2500px;
+    background-position: top;
+    padding: 15px 0;
+}
+.signin-area__header{
+    padding: 20px 0 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.signin-area__header > p{
+
+}
+.signin-area__header--bold{
+    color: #f2c94c;
+}
+.signin-box-wrapper{
+    width: 70%;
+    margin-left: 15%;
+}
+.signin-area__right-img{
+    text-align: right;
+    overflow: hidden;
+
+}
+.signin-area__right-img > img{
+    max-width: 100%;
+    border-radius: 8px;
+}
