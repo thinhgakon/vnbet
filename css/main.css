@@ -103,3 +103,29 @@ a:hover{
     max-width: 100%;
     border-radius: 8px;
 }
+/* search */
+.search-area-wrapper{
+    padding: 15px 0;
+}
+.search-area{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    align-items: center;
+}
+.search-input{
+    flex: 1;
+    height: 40px;
+    padding: .375rem .75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.search-btn{
+    height: 40px;
+    width: 50px;
+    border: none !important;
+}
