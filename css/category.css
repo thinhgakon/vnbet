@@ -1,0 +1,11 @@
+.listed-option{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.listed-option__sort > span{
+    margin-right: 7px;
+}
+.listed-option__sort a{
+    color: #828282;
+}

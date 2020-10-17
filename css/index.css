@@ -11,47 +11,6 @@
     padding: 20px 0;
 }
 
-/* *** BOX TITLE *** */
-.box-title{
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-}
-.box-title__label{
-    background-color: #db6323;
-    padding: 5px 15px;
-    font-size: 21px;
-    color: #fff;
-    position: relative;
-    margin-right: 30px;
-    text-transform: capitalize;
-}
-.box-title__label--highlight{
-    background-color: #27ae60;
-}
-.box-title__label:after {
-    position: absolute;
-    content: "";
-    display: block;
-    width: 16px;
-    height: 40px;
-    right: -16px;
-    top: 0;
-    border-bottom: 40px solid transparent;
-    border-left: 16px solid #db6323;
-}
-.box-title__label--highlight:after{
-    border-left: 16px solid #27ae60;
-}
-.box-title__view-all > a{
-    color: #db6323;
-    font-weight: 500;
-    font-size: 16px;
-}
-.box-title__view-all > a > i{
-    margin-right: 5px;
-}
-
 /* *** BOOK CARD *** */
 .book-card{
     border: 1px solid #f2c94c;
