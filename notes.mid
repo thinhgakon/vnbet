@@ -82,3 +82,35 @@ section.authorinfo
                 div.authorinfo-card__body
                     div.authorinfo-card__title
                     div.authorinfo-card__text
+======*******=====
+section.signin-area
+    div.container-fluid
+        div.row
+            div.col
+                div.signin-area__header
+                    p
+                    p
+        div.row
+            div.col
+                div.signin-box
+                    div.signin-box__header
+                        img
+                        div.signin-box__title
+                    div.signin-box__body
+                        div.sign-box__label
+                        div.input>input
+                        div.sign-box__label
+                        div.input>input
+                    div.div.sign-box__action
+                        a
+                        a
+                    div.sign-box__social
+                        p
+                        div>img img
+                    div.sign-box__register
+                        p
+                        a
+            div.col
+                img
+
+
