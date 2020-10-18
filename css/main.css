@@ -129,3 +129,19 @@ a:hover{
     width: 50px;
     border: none !important;
 }
+/* Muc luc */
+.summary-area{
+padding: 15px 0 40px;
+}
+.chappter-list-wrapper{
+    /* width: 80%; */
+}
+.chappter-list__title{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #c18000;
+    text-transform: capitalize;
+}
+.chappter-list__content{
+
+}

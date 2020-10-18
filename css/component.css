@@ -73,7 +73,11 @@ a.dropdown-toggle > span::after{
     justify-content: center;
     height: 200px;
 }
-.book-card__img > img{
+.book-card__img > a{
+    display: flex;
+    justify-content: center;
+}
+.book-card__img img{
     width: auto;
     max-height: 100%;
 }
@@ -166,6 +170,26 @@ a.dropdown-toggle > span::after{
 .authorinfo-card__text{
     color: #828282;
 }
+
+/* *** SIMPLE BOOK CARD: mucluc page *** */
+.bookinfo-card{
+    display: flex;
+}
+.bookinfo-card__avatar{
+    margin: 0 20px 0 5px;
+    width: auto;
+    height: 150px;
+    /* border-radius: 50%; */
+}
+.bookinfo-card__title{
+    color: #db6323;
+    font-weight: 500;
+    font-size: 30px;
+}
+.bookinfo-card__text{
+    color: #828282;
+}
+
 /* *** Button *** */
 .btn {
     display: inline-block;
@@ -331,4 +355,28 @@ margin-bottom: 8px;
 }
 .sign-box__register > a{
 
+}
+/* *** CHAPPTER *** */
+.chapter-item{
+    padding: .5rem 0;
+    border-bottom: 1px solid #c18000;
+    position: relative;
+}
+.chapter-item:last-child {
+    border-bottom: none;
+}
+.chapter-item:before {
+    content: "\f655";
+    font-family: Font Awesome\ 5 Free;
+    font-weight: 700;
+    position: absolute;
+    left: -1.5rem;
+    color: #ceb78a;
+}
+.chapter-item__name {
+    color: #c18000;
+}
+.chapter-item__view-count {
+    font-size: 13px;
+    color: #828282;
 }
