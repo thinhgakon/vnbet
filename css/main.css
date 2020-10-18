@@ -159,3 +159,8 @@ padding: 15px 0 40px;
     color: #db6323;
     margin-bottom: 20px;
 }
+.next-chapper a{
+    font-weight: 500;
+    color: #c18000;
+    line-height: 1.25rem;
+}
